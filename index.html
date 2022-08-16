@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>First Heading H1</h1>
@@ -89,8 +94,32 @@
             </ol>
         </li>
     </ol>
-
+    <br><br>
     <!-- TABLAS  -->
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+            </tr>
+        </thead>
 
+        <tbody>
+            <tr>
+                <td>PC</td>
+                <td>1200$</td>
+            </tr>
+            <tr>
+                <td>Laptop</td>
+                <td>2000$</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <td></td>
+            <td>total:  3200</td>
+        </tfoot>
+       
+    </table>
 </body>
 </html>
